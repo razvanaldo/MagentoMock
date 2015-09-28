@@ -1,0 +1,14 @@
+.git*
+./htdocs/install.php
+./htdocs/includes
+./htdocs/downloader
+./htdocs/pkginfo
+./htdocs/LICENSE*
+./htdocs/RELEASE_NOTES.txt
+./htdocs/phpunit.xml*
+./htdocs/*.sample
+./htdocs/var
+./htdocs/media
+./tools/composer.phar
+./.modman/Aoe_TemplateHints
+./.modman/EcomDev_PHPUnit
