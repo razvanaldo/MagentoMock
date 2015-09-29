@@ -28,7 +28,7 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Mon, 23 Jun 2014 10:19:51 +0000]]></date>
+            <date>{{date}}</date>
         </install>
         <crypt>
             <key>{{key}}</key>
