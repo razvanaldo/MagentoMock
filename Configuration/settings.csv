@@ -1,7 +1,7 @@
 Handler,Param1,Param2,Param3,DEFAULT,production
-Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/host,,localhost,
-Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/username,,root,
-Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/password,,,
+Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/host,,ProductionDBServer.com,
+Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/username,,Production,
+Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/password,,Production,
 Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/dbname,,Production,
 Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/model,,mysql4,
 Est_Handler_XmlFile,app/etc/local.xml,/config/global/resources/default_setup/connection/type,,pdo_mysql,
