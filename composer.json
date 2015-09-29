@@ -5,16 +5,16 @@
         "aoepeople/composer-installers": "*",
         "aoepeople/envsettingstool": "*",
         "tmp/magento_community": "1.9.2.1",
-        "aoepeople/magento-deployscripts": "1.0.3"
+        "aoepeople/magento-deployscripts": "1.1.0"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/AOEpeople/composer-installers.git"
+            "url": "https://github.com/razvanaldo/composer-installers.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/AOEpeople/EnvSettingsTool.git"
+            "url": "https://github.com/razvanaldo/EnvSettingsTool.git"
         },
         {
             "type": "package",
@@ -30,7 +30,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/AOEpeople/magento-deployscripts.git"
+            "url": "https://github.com/razvanaldo/magento-deployscripts.git"
         }
     ],
     "config" : {
