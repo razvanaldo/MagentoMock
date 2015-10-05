@@ -3,6 +3,7 @@
     "minimum-stability": "dev",
     "require": {
         "aoepeople/composer-installers": "*",
+        "aoepeople/aoe_scheduler": "1.2.2",
         "aoepeople/envsettingstool": "*",
         "tmp/magento_community": "1.9.2.1",
         "aoepeople/magento-deployscripts": "1.1.0"
