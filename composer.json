@@ -11,6 +11,10 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/razvanaldo/Aoe_Scheduler"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/razvanaldo/composer-installers.git"
         },
         {
