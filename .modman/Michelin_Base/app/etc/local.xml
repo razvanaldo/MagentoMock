@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
  * Magento
@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date>{{date}}</date>
+            <date>Mon, 23 Jun 2014 10:19:51 +0000</date>
         </install>
         <crypt>
-            <key>{{key}}</key>
+            <key>MyNiceEncryptionKey</key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -40,13 +40,13 @@
             </db>
             <default_setup>
                 <connection>
-                    <host>{{db_host}}</host>
-                    <username>{{db_user}}</username>
-                    <password>{{db_pass}}</password>
-                    <dbname>{{db_name}}</dbname>
+                    <host>localhost</host>
+                    <username>michelin</username>
+                    <password>michelin</password>
+                    <dbname>michelin</dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
-                    <model>{{db_model}}</model>
-                    <type>{{db_type}}</type>
+                    <model>mysql4</model>
+                    <type>pdo_mysql</type>
                     <pdoType><![CDATA[]]></pdoType>
                     <active>1</active>
                 </connection>
@@ -59,8 +59,8 @@
             <memcached><!-- memcached cache backend related config -->
                 <servers><!-- any number of server nodes can be included -->
                     <server>
-                        <host><![CDATA[]]></host>
-                        <port><![CDATA[]]></port>
+                        <host>172.16.128.172</host>
+                        <port>11211</port>
                         <persistent><![CDATA[1]]></persistent>
                     </server>
                 </servers>
@@ -68,7 +68,7 @@
                 <cache_dir><![CDATA[]]></cache_dir>
                 <hashed_directory_level><![CDATA[]]></hashed_directory_level>
                 <hashed_directory_perm><![CDATA[]]></hashed_directory_perm>
-                <file_name_prefix><![CDATA[]]></file_name_prefix>
+                <file_name_prefix>devbox_</file_name_prefix>
             </memcached>
         </cache>
 
